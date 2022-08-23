@@ -165,7 +165,7 @@ Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
 
 Matheus Dutra Souza - [@mthsdtrsz](https://twitter.com/mthsdtrsz) - matheusd67@hotmail.com
 
-Link do Projeto: [https://github.com/MatheusSouza70/Camera-Project](https://github.com/MatheusSouza70/Camera-Project)
+Link do Projeto: [https://github.com/MatheusSouza70/Map-Project](https://github.com/MatheusSouza70/Map-Project)
 
 <p align="right">(<a href="#top">Voltar para o início</a>)</p>
 
