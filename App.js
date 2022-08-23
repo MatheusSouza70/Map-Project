@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { StyleSheet, View, Dimensions, TouchableOpacity } from "react-native";
-import MapView from "react-native-maps";
+import MapView, { Marker } from "react-native-maps";
 import customStyle from "./customStyle.js";
 import * as Location from "expo-location";
 import { FontAwesome } from "@expo/vector-icons";
@@ -50,14 +50,17 @@ export default function App() {
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}
-      ></MapView>
-      <TouchableOpacity
+      >
+      </MapView>
+      <TouchableOpacity 
         style={styles.maptipo}
         onPress={() => {
-          seType(type === "standard" ? "satellite" : "standard");
+          seType(
+            type ===  'standard' ? 'satellite' : 'standard'
+          )
         }}
       >
-        <FontAwesome name="map" size={25} color="white" />
+        <FontAwesome  name="map" size={50} color="white" />
       </TouchableOpacity>
     </View>
   );
